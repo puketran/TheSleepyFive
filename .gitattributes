@@ -1,0 +1,49 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Unity YAML files: force text, normalize line endings to LF
+*.cs text diff=csharp
+*.shader text
+*.cginc text
+*.compute text
+*.hlsl text
+*.glsl text
+*.json text
+*.xml text
+*.txt text
+*.asmdef text
+*.unity text merge=unityyamlmerge eol=lf
+*.prefab text merge=unityyamlmerge eol=lf
+*.asset text merge=unityyamlmerge eol=lf
+*.mat text merge=unityyamlmerge eol=lf
+*.anim text merge=unityyamlmerge eol=lf
+*.controller text merge=unityyamlmerge eol=lf
+*.overrideController text merge=unityyamlmerge eol=lf
+*.physicMaterial2D text merge=unityyamlmerge eol=lf
+
+# Binary files (should not be merged or diffed)
+*.dll binary
+*.exe binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.tga binary
+*.gif binary
+*.bmp binary
+*.psd binary
+*.mp3 binary
+*.ogg binary
+*.wav binary
+*.mp4 binary
+*.mov binary
+*.prefab.meta text
+*.unity.meta text
+*.asset.meta text
+*.mat.meta text
+
+# Prevent these files from being diffed or merged
+*.fbx binary
+*.dae binary
+*.3ds binary
+*.max binary
+*.blend binary
