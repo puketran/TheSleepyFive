@@ -12,6 +12,9 @@ namespace StarterAssets
 		public Vector2 look;
 		public bool jump;
 		public bool sprint;
+		public bool throwInput;
+		public bool pickupInput;
+		public bool attack;
 
 		[Header("Movement Settings")]
 		public bool analogMovement;
@@ -28,7 +31,7 @@ namespace StarterAssets
 
 		public void OnLook(InputValue value)
 		{
-			if(cursorInputForLook)
+			if (cursorInputForLook)
 			{
 				LookInput(value.Get<Vector2>());
 			}
@@ -43,13 +46,50 @@ namespace StarterAssets
 		{
 			SprintInput(value.isPressed);
 		}
+
+		public void OnThrow(InputValue value)
+		{
+			// This method can be used to handle any throw input if needed
+			// Currently, it does nothing
+			// Debug.Log("Throw input received, but no action defined.");
+			ThrowInput(value.isPressed);
+		}
+
+		public void OnPickup(InputValue value)
+		{
+			// This method can be used to handle any pickup input if needed
+			// Currently, it does nothing
+			// Debug.Log("Pickup input received, but no action defined.");
+			PickupInput(value.isPressed);
+		}
+
+		public void OnAttack(InputValue value)
+		{
+			// This method can be used to handle any attack input if needed
+			// Currently, it does nothing
+			// Debug.Log("Attack input received, but no action defined.");
+			AttackInput(value.isPressed);
+		}
 #endif
 
+		public void AttackInput(bool newAttackState)
+		{
+			attack = newAttackState;
+		}
+		public void ThrowInput(bool newThrowState)
+		{
+			throwInput = newThrowState;
+		}
+
+		public void PickupInput(bool newPickupState)
+		{
+			pickupInput = newPickupState;
+		}
 
 		public void MoveInput(Vector2 newMoveDirection)
 		{
 			move = newMoveDirection;
-		} 
+		}
 
 		public void LookInput(Vector2 newLookDirection)
 		{
@@ -65,7 +105,7 @@ namespace StarterAssets
 		{
 			sprint = newSprintState;
 		}
-		
+
 		private void OnApplicationFocus(bool hasFocus)
 		{
 			SetCursorState(cursorLocked);
@@ -73,8 +113,8 @@ namespace StarterAssets
 
 		private void SetCursorState(bool newState)
 		{
-			Cursor.lockState = newState ? CursorLockMode.Locked : CursorLockMode.None;
+			// Cursor.lockState = newState ? CursorLockMode.Locked : CursorLockMode.None;
 		}
 	}
-	
+
 }

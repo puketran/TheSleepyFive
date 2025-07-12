@@ -3,23 +3,23 @@ using StarterAssets;
 using Unity.Netcode;
 using Cinemachine;
 
-public class GameManager : NetworkBehaviour
+public class GameManager : MonoBehaviour
 {
     [SerializeField]
     private CinemachineVirtualCamera virtualCamera;
     [SerializeField]
     UICanvasControllerInput uiCanvasControllerInput;
 
-    public override void OnNetworkSpawn()
-    {
-        if (IsServer)
-        {
-            NetworkManager.Singleton.OnClientConnectedCallback += OnClientConnected;
-        }
+    // public override void OnNetworkSpawn()
+    // {
+    //     if (IsServer)
+    //     {
+    //         NetworkManager.Singleton.OnClientConnectedCallback += OnClientConnected;
+    //     }
 
-        // Find and setup camera for local player
-        SetupCameraForLocalPlayer();
-    }
+    //     // Find and setup camera for local player
+    //     SetupCameraForLocalPlayer();
+    // }
 
     private void OnClientConnected(ulong clientId)
     {
@@ -70,11 +70,11 @@ public class GameManager : NetworkBehaviour
         }
     }
 
-    public override void OnNetworkDespawn()
-    {
-        if (IsServer)
-        {
-            NetworkManager.Singleton.OnClientConnectedCallback -= OnClientConnected;
-        }
-    }
+    // public override void OnNetworkDespawn()
+    // {
+    //     if (IsServer)
+    //     {
+    //         NetworkManager.Singleton.OnClientConnectedCallback -= OnClientConnected;
+    //     }
+    // }
 }

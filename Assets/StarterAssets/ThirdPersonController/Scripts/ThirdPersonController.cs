@@ -1,4 +1,6 @@
-﻿using UnityEngine;
+﻿using Cinemachine;
+using PurrNet;
+using UnityEngine;
 #if ENABLE_INPUT_SYSTEM 
 using UnityEngine.InputSystem;
 #endif
@@ -93,18 +95,25 @@ namespace StarterAssets
 
         // animation IDs
         private int _animIDSpeed;
+        private int _animIDSpeedX;
         private int _animIDGrounded;
         private int _animIDJump;
+        private int _animIDThrow;
+        private int _animIDAttack;
+        private int _animIDPickup;
         private int _animIDFreeFall;
         private int _animIDMotionSpeed;
 
 #if ENABLE_INPUT_SYSTEM 
         private PlayerInput _playerInput;
 #endif
-        private Animator _animator;
+        private NetworkAnimator _animator;
         private CharacterController _controller;
         private StarterAssetsInputs _input;
         private GameObject _mainCamera;
+
+        private bool _hasInit = false;
+
 
         private const float _threshold = 0.01f;
 
@@ -123,6 +132,7 @@ namespace StarterAssets
         }
 
 
+
         private void Awake()
         {
             // get a reference to our main camera
@@ -132,7 +142,7 @@ namespace StarterAssets
             }
         }
 
-        private void Start()
+        public void OnInit()
         {
             _cinemachineTargetYaw = CinemachineCameraTarget.transform.rotation.eulerAngles.y;
 
@@ -150,15 +160,66 @@ namespace StarterAssets
             // reset our timeouts on start
             _jumpTimeoutDelta = JumpTimeout;
             _fallTimeoutDelta = FallTimeout;
+            _hasInit = true;
+
+        }
+
+        private void Start()
+        {
+
+
         }
 
         private void Update()
         {
+            if (!_hasInit)
+            {
+                Debug.LogError("ThirdPersonController has not been initialized. Call OnInit() before using the controller.");
+                return;
+            }
             _hasAnimator = TryGetComponent(out _animator);
 
             JumpAndGravity();
             GroundedCheck();
             Move();
+            ActionCheck();
+        }
+
+        private void ActionCheck()
+        {
+            // check if is on ground and velocity is low
+            if (Grounded && _controller.velocity.magnitude < 0.1f)
+            {
+                // check if throw input is pressed
+                if (_input.throwInput)
+                {
+                    if (_hasAnimator)
+                    {
+                        _animator.SetTrigger(_animIDThrow);
+                        _input.throwInput = false;
+                    }
+                }
+
+                // check if pickup input is pressed
+                if (_input.pickupInput)
+                {
+                    if (_hasAnimator)
+                    {
+                        _animator.SetTrigger(_animIDPickup);
+                        _input.pickupInput = false;
+                    }
+                }
+
+                if (_input.attack)
+                {
+                    if (_hasAnimator)
+                    {
+                        _animator.SetTrigger(_animIDAttack);
+                        _input.attack = false;
+                    }
+                }
+            }
+
         }
 
         private void LateUpdate()
@@ -168,7 +229,11 @@ namespace StarterAssets
 
         private void AssignAnimationIDs()
         {
+            _animIDAttack = Animator.StringToHash("Attack");
+            _animIDThrow = Animator.StringToHash("Throw");
+            _animIDPickup = Animator.StringToHash("Pickup");
             _animIDSpeed = Animator.StringToHash("Speed");
+            _animIDSpeedX = Animator.StringToHash("SpeedX");
             _animIDGrounded = Animator.StringToHash("Grounded");
             _animIDJump = Animator.StringToHash("Jump");
             _animIDFreeFall = Animator.StringToHash("FreeFall");
@@ -184,7 +249,7 @@ namespace StarterAssets
                 QueryTriggerInteraction.Ignore);
 
             // update animator if using character
-            if (_hasAnimator)
+            if (_hasAnimator && _animator.GetBool(_animIDGrounded) != Grounded)
             {
                 _animator.SetBool(_animIDGrounded, Grounded);
             }
@@ -196,7 +261,7 @@ namespace StarterAssets
             if (_input.look.sqrMagnitude >= _threshold)
             {
                 //Don't multiply mouse input by Time.deltaTime
-                Debug.Log("IsCurrentDeviceMouse " + IsCurrentDeviceMouse);
+                // Debug.Log("IsCurrentDeviceMouse " + IsCurrentDeviceMouse);
                 float deltaTimeMultiplier = IsCurrentDeviceMouse ? 1.0f : Time.deltaTime;
 
                 _cinemachineTargetPitch += _input.look.y * 1 * deltaTimeMultiplier;
@@ -329,6 +394,7 @@ namespace StarterAssets
                 _animationBlend = Mathf.Lerp(_animationBlend, targetSpeed, Time.deltaTime * SpeedChangeRate);
                 if (_animationBlend < 0.01f) _animationBlend = 0f;
                 _animator.SetFloat(_animIDSpeed, _animationBlend);
+                _animator.SetFloat(_animIDSpeedX, _input.move.x);
                 _animator.SetFloat(_animIDMotionSpeed, inputMagnitude);
             }
         }
