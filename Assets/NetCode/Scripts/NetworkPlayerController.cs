@@ -25,8 +25,8 @@ public class NetworkPlayerController : NetworkBehaviour
         }
 
 
-        Cursor.lockState = CursorLockMode.Locked;
-        Cursor.visible = false;
+        // Cursor.lockState = CursorLockMode.Locked;
+        // Cursor.visible = false;
 
         EnableBehaviors(true);
 
@@ -47,7 +47,7 @@ public class NetworkPlayerController : NetworkBehaviour
         if (!isOwner)
             return;
 
-        Cursor.lockState = CursorLockMode.None;
-        Cursor.visible = true;
+        // Cursor.lockState = CursorLockMode.None;
+        // Cursor.visible = true;
     }
 }
