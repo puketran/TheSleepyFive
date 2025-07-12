@@ -14,6 +14,15 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/NetCode/Ground.unity
     guid: 06d3caa37bae29e42a6809bac927262f
+  - enabled: 1
+    path: Assets/Scenes/MainMenuScene.unity
+    guid: 675b5f6b1f5180e439a1e3746ab288a3
+  - enabled: 1
+    path: Assets/Scenes/LoadingScene.unity
+    guid: 45fe0fdc150c1eb4e92a14b79dd3f126
+  - enabled: 1
+    path: Assets/Scenes/GameScene.unity
+    guid: 2354f4a4b341cbc47815c9201e510f35
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 9e7be553448fa2546aea5752021cbcf7, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}

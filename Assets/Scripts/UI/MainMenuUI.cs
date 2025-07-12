@@ -1,0 +1,25 @@
+using UnityEngine;
+using UnityEngine.UI;
+
+public class MainMenuUI : MonoBehaviour
+{
+    [SerializeField] private Button optionsButton;
+    [SerializeField] private Button startButton;
+    [SerializeField] private Button exitButton;
+
+    private void Awake()
+    {
+        optionsButton.onClick.AddListener(() =>
+        {
+
+        });
+        startButton.onClick.AddListener(() =>
+        {
+            Loader.Load(Loader.Scene.GameScene);
+        });
+        exitButton.onClick.AddListener(() =>
+        {
+            Application.Quit();
+        });
+    }
+}
