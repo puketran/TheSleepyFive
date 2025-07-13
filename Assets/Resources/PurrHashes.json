@@ -4,329 +4,331 @@ Item, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;3
 Resource, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;4
 Tool, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;5
 NetworkPlayerController, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;6
-PlayerInventory, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;7
-WorldResources, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;8
-System.Collections.Generic.List`1[[UnityEngine.Vector3, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;9
-System.Collections.Generic.List`1[[UnityEngine.MonoBehaviour, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;10
-Fossil.DeltaOp, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;11
-PurrNet.NetworkIdentity, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;12
-UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;13
-UnityEngine.Transform, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;14
-PurrNet.NetworkManager, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;15
-PurrNet.NetworkModule, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;16
-PurrNet.StringUTF8, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;17
-System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;18
-PurrNet.Packing.Half, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;19
-PurrNet.Packing.CompressedFloat, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;20
-PurrNet.HalfQuaternion, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;21
-System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;22
-PurrNet.Packing.NormalizedFloat, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;23
-PurrNet.Packing.PackedUInt, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;24
-PurrNet.Packing.PackedInt, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;25
-PurrNet.Packing.PackedUShort, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;26
-PurrNet.Packing.PackedShort, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;27
-PurrNet.Packing.PackedULong, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;28
-PurrNet.Packing.PackedLong, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;29
-PurrNet.Packing.PackedByte, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;30
-PurrNet.Packing.PackedSByte, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;31
-System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;32
-PurrNet.Transports.ByteData, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;33
-PurrNet.Packing.BitPacker, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;34
-PurrNet.Packing.BitPackerWithLength, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;35
-PurrNet.Packing.IPacked, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;36
-PurrNet.Packing.IPackedSimple, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;37
-System.Int64, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;38
-System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;39
-System.Int16, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;40
-System.SByte, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;41
-System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;42
-System.TimeSpan, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;43
-System.DateTime, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;44
-System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;45
-System.Char, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;46
-System.UInt64, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;47
-System.UInt32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;48
-System.UInt16, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;49
-System.Byte, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;50
-UnityEngine.AvatarIKHint, UnityEngine.AnimationModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;51
-UnityEngine.AvatarIKGoal, UnityEngine.AnimationModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;52
-UnityEngine.HumanBodyBones, UnityEngine.AnimationModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;53
-UnityEngine.AnimatorCullingMode, UnityEngine.AnimationModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;54
-UnityEngine.AnimatorUpdateMode, UnityEngine.AnimationModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;55
-UnityEngine.AvatarTarget, UnityEngine.AnimationModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;56
-UnityEngine.MatchTargetWeightMask, UnityEngine.AnimationModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;57
-UnityEngine.Vector2, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;58
-UnityEngine.Ray, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;59
-UnityEngine.Ray2D, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;60
-UnityEngine.Vector3, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;61
-UnityEngine.Vector4, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;62
-UnityEngine.Vector2Int, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;63
-UnityEngine.Vector3Int, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;64
-UnityEngine.Quaternion, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;65
-UnityEngine.Color32, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;66
-UnityEngine.Color, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;67
-UnityEngine.Rect, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;68
-UnityEngine.Bounds, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;69
-UnityEngine.BoundsInt, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;70
-UnityEngine.SceneManagement.UnloadSceneOptions, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;71
-UnityEngine.SceneManagement.LoadSceneMode, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;72
-UnityEngine.SceneManagement.LocalPhysicsMode, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;73
-UnityEngine.SceneManagement.LoadSceneParameters, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;74
-PurrNet.Pooling.DisposableList`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;75
-PurrNet.SetIKHintPosition, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;76
-PurrNet.SetIKPositionWeight, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;77
-PurrNet.SetIKRotationWeight, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;78
-PurrNet.SetIKHintPositionWeight, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;79
-PurrNet.CrossFadeInFixedTime, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;80
-PurrNet.SetLookAtPosition, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;81
-PurrNet.SetLookAtWeight, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;82
-PurrNet.SetIKPosition, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;83
-PurrNet.SetIKRotation, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;84
-PurrNet.SetBoneLocalRotation, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;85
-PurrNet.SetBool, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;86
-PurrNet.SetFloat, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;87
-PurrNet.SetInt, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;88
-PurrNet.SetTrigger, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;89
-PurrNet.ResetTrigger, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;90
-PurrNet.SetSpeed, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;91
-PurrNet.SetBodyPosition, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;92
-PurrNet.SetBodyRotation, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;93
-PurrNet.SetCullingMode, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;94
-PurrNet.SetFireEvents, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;95
-PurrNet.SetPlaybackTime, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;96
-PurrNet.SetRootPosition, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;97
-PurrNet.SetRootRotation, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;98
-PurrNet.SetStabilizeFeet, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;99
-PurrNet.SetUpdateMode, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;100
-PurrNet.SetApplyRootMotion, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;101
-PurrNet.SetFeetPivotActive, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;102
-PurrNet.SetKeepAnimatorStateOnDisable, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;103
-PurrNet.SetWriteDefaultValuesOnDisable, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;104
-PurrNet.SetLogWarnings, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;105
-PurrNet.SetLayersAffectMassCenter, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;106
-PurrNet.Play_STATEHASH_LAYER_NORMALIZEDTIME, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;107
-PurrNet.Play_STATEHASH_LAYER, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;108
-PurrNet.PLAY_STATEHASH, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;109
-PurrNet.Rebind, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;110
-PurrNet.UpdateWithDelta, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;111
-PurrNet.CrossFade_5, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;112
-PurrNet.CrossFade_4, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;113
-PurrNet.CrossFade_3, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;114
-PurrNet.CrossFade_2, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;115
-PurrNet.MatchTarget, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;116
-PurrNet.InterruptMatchTarget, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;117
-PurrNet.SetLayerWeight, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;118
-PurrNet.WriteDefaultValues, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;119
-PurrNet.ApplyBuiltinRootMotion, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;120
-PurrNet.PlayInFixedTime, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;121
-PurrNet.NetAnimatorRPC, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;122
-PurrNet.NetAnimatorActionBatch, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;123
-PurrNet.NetworkAnimator, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;124
-PurrNet.NetworkBehaviour, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;125
-PurrNet.NetworkTransform, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;126
-PurrNet.PrefabLink, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;127
-PurrNet.SyncEventBase, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;128
-PurrNet.SyncEvent, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;129
-PurrNet.SyncTimer, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;130
-PurrNet.NetworkOwnershipDebug, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;131
-PurrNet.NetworkOwnershipToggle, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;132
-PurrNet.NetworkReflection, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;133
-PurrNet.NetworkServerToggle, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;134
-PurrNet.PlayerID, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;135
-PurrNet.SceneID, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;136
-PurrNet.RPCPacket, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;137
-PurrNet.ChildRPCPacket, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;138
-PurrNet.StaticRPCPacket, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;139
-PurrNet.StateMachine.StateMachine, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;140
-PurrNet.StateMachine.StateMachineState, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;141
-PurrNet.StateMachine.StateNode, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;142
-PurrNet.Modules.DeltaAcknowledgeBatch, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;143
-PurrNet.Modules.DeltaBatch, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;144
-PurrNet.Modules.DeltaAcknowledge, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;145
-PurrNet.Modules.DeltaCleanup, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;146
-PurrNet.Modules.HierarchyAction, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;147
-PurrNet.Modules.HierarchyActionBatch, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;148
-PurrNet.Modules.DespawnAction, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;149
-PurrNet.Modules.SetActiveAction, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;150
-PurrNet.Modules.SetEnabledAction, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;151
-PurrNet.Modules.SpawnAction, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;152
-PurrNet.Modules.ChangeParentAction, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;153
-PurrNet.Modules.TransformInfo, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;154
-PurrNet.Modules.ChangeParentPacket, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;155
-PurrNet.Modules.DespawnPacket, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;156
-PurrNet.Modules.FinishSpawnPacket, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;157
-PurrNet.Modules.SpawnPacketBatch, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;158
-PurrNet.Modules.SpawnPacket, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;159
-PurrNet.Modules.NetworkTransformDelta, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;160
-PurrNet.Modules.OwnershipChange, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;161
-PurrNet.Modules.ServerLoginResponse, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;162
-PurrNet.Modules.PlayerJoinedEvent, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;163
-PurrNet.Modules.PlayerLeftEvent, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;164
-PurrNet.Modules.PlayerSnapshotEvent, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;165
-PurrNet.Modules.SceneAction, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;166
-PurrNet.Packing.HalfVector2, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;167
-PurrNet.Packing.HalfVector3, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;168
-PurrNet.Packing.HalfVector4, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;169
-PurrNet.Authentication.AuthenticationRequest, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;170
-PurrNet.Authentication.AuthenticationRequestData, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;171
-PurrNet.Authentication.AuthenticationResponse, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;172
-PurrNet.StatisticsManager+PingMessage, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;173
-PurrNet.StatisticsManager+PacketMessage, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;174
-PurrNet.NetworkTransformData, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;175
-PurrNet.RPCInfo, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;176
-PurrNet.TimerState, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;177
-PurrNet.TimerEvent, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;178
-System.Nullable`1[[PurrNet.PlayerID, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;179
-PurrNet.StatisticsManager+ServerStatsPacket, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;180
-PurrNet.SyncList`1[[PurrNet.StateMachine.StateNode, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;181
-PurrNet.Modules.OwnershipChangeBatch, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;182
-PurrNet.Modules.RpcResponse, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;183
-PurrNet.Modules.ClientFinishedLoadingScene, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;184
-PurrNet.Modules.SceneActionsBatch, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;185
-System.Collections.Generic.List`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;186
-PurrNet.NetAnimatorAction, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;187
-PurrNet.SetAnimatePhysics, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;188
-System.Collections.Generic.List`1[[PurrNet.NetAnimatorRPC, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;189
-System.Collections.Generic.List`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;190
-System.Collections.Generic.HashSet`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;191
-System.Collections.Generic.List`1[[PurrNet.PlayerID, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;192
-System.Collections.Generic.Dictionary`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;193
-System.Collections.Generic.Dictionary`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;194
-System.Collections.Generic.Dictionary`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;195
-PurrNet.SyncMode, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;196
-PurrNet.TransformSyncMode, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;197
-PurrNet.InterpolationTiming, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;198
-PurrNet.Interpolated`1[[PurrNet.Vector3WithParent, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;199
-PurrNet.Vector3WithParent, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;200
-System.Collections.Generic.List`1[[PurrNet.Vector3WithParent, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;201
-PurrNet.Interpolated`1[[PurrNet.QuaternionWithParent, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;202
-PurrNet.QuaternionWithParent, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;203
-System.Collections.Generic.List`1[[PurrNet.QuaternionWithParent, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;204
-PurrNet.Interpolated`1[[PurrNet.ScaleWithParent, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;205
-PurrNet.ScaleWithParent, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;206
-System.Collections.Generic.List`1[[PurrNet.ScaleWithParent, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;207
-PurrNet.Packing.CompressedVector3, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;208
-PurrNet.Packing.PackedQuaternion, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;209
-System.Collections.Generic.Dictionary`2[[PurrNet.NetworkIdentity+InstanceGenericKey, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Reflection.MethodInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;210
-PurrNet.NetworkIdentity+InstanceGenericKey, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;211
-System.Int32[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;212
-System.Collections.Generic.List`1[[PurrNet.NetworkIdentity, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;213
-System.Collections.Generic.Dictionary`2[[System.Type, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.Collections.Generic.List`1[[System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;214
-System.Type[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;215
-System.Collections.Generic.List`1[[System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;216
-PurrNet.StartFlags, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;217
-PurrNet.Modules.CookieScope, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;218
-System.Collections.Generic.List`1[[PurrNet.NetworkPrefabs+UserPrefabData, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;219
-PurrNet.NetworkPrefabs+UserPrefabData, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;220
-System.Collections.Generic.Dictionary`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[PurrNet.PrefabData, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;221
-PurrNet.PrefabData, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;222
-System.Collections.Generic.HashSet`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;223
-System.Collections.Generic.List`1[[UnityEngine.Object, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;224
-System.Collections.Generic.Dictionary`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[UnityEngine.Object, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;225
-System.Collections.Generic.Dictionary`2[[UnityEngine.Object, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;226
-PurrNet.SpawnRules, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;227
-PurrNet.ConnectionAuth, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;228
-PurrNet.ActionAuth, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;229
-PurrNet.DefaultOwner, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;230
-PurrNet.RpcRules, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;231
-PurrNet.VisibilityRules, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;232
-PurrNet.VisibilityMode, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;233
-PurrNet.OwnershipRules, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;234
-PurrNet.NetworkSceneRules, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;235
-PurrNet.NetworkIdentityRules, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;236
-PurrNet.NetworkTransformRules, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;237
-PurrNet.MiscRules, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;238
-PurrNet.Transports.Connection, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;239
-System.Nullable`1[[PurrNet.Transports.Connection, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;240
-PurrNet.Transports.ConnectionState, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;241
-PurrNet.ModulesCollection, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;242
-System.Collections.Generic.List`1[[PurrNet.Modules.CookiePair, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;243
-PurrNet.Modules.CookiePair, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;244
-System.Collections.Generic.List`1[[PurrNet.Modules.WaitingConnectionAuth, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;245
-PurrNet.Modules.WaitingConnectionAuth, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;246
-System.Collections.Generic.Dictionary`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[PurrNet.PlayerID, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;247
-System.Collections.Generic.Dictionary`2[[PurrNet.PlayerID, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;248
-System.Collections.Generic.Dictionary`2[[PurrNet.Transports.Connection, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[PurrNet.PlayerID, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;249
-System.Collections.Generic.Dictionary`2[[PurrNet.PlayerID, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[PurrNet.Transports.Connection, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;250
-System.Collections.Generic.HashSet`1[[PurrNet.PlayerID, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;251
-System.Nullable`1[[PurrNet.NetworkID, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;252
-PurrNet.NetworkID, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;253
-System.Collections.Generic.List`1[[PurrNet.Transports.Connection, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;254
-System.Collections.Generic.Dictionary`2[[PurrNet.PlayerID, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[PurrNet.NetworkID, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;255
-PurrNet.Modules.SceneHistory, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;256
-System.Collections.Generic.List`1[[PurrNet.Modules.SceneAction, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;257
-PurrNet.Modules.SceneActionType, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;258
-PurrNet.Modules.LoadSceneAction, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;259
-PurrNet.Modules.PurrSceneSettings, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;260
-PurrNet.Modules.UnloadSceneAction, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;261
-PurrNet.Modules.SetActiveSceneAction, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;262
-System.Collections.Generic.List`1[[PurrNet.SceneID, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;263
-System.Collections.Generic.List`1[[PurrNet.Modules.PendingSceneOperation, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;264
-PurrNet.Modules.PendingSceneOperation, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;265
-System.Collections.Generic.Queue`1[[PurrNet.Modules.SceneAction, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;266
-System.Collections.Generic.Dictionary`2[[PurrNet.SceneID, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[PurrNet.Modules.SceneState, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;267
-PurrNet.Modules.SceneState, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;268
-System.Collections.Generic.Dictionary`2[[UnityEngine.SceneManagement.Scene, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[PurrNet.SceneID, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;269
-System.Collections.Generic.Dictionary`2[[PurrNet.SceneID, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[PurrNet.Collections.PurrHashSet`1[[PurrNet.PlayerID, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;270
-PurrNet.Collections.PurrHashSet`1[[PurrNet.PlayerID, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;271
-System.Collections.Generic.List`1[[UnityEngine.AsyncOperation, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;272
-PurrNet.Modules.ScenesModule+CleanupStage, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;273
-System.Nullable`1[[UnityEngine.SceneManagement.Scene, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;274
-System.Collections.Generic.Dictionary`2[[PurrNet.PlayerID, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Collections.Generic.Dictionary`2[[System.UInt32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[PurrNet.Modules.ClientDeltaTracker, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;275
-System.Collections.Generic.Dictionary`2[[System.UInt32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[PurrNet.Modules.ClientDeltaTracker, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;276
-System.Collections.Generic.List`1[[PurrNet.Modules.DeltaAcknowledgeBatch, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;277
-PurrNet.Pooling.DisposableList`1[[PurrNet.Modules.DeltaAcknowledge, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;278
-System.Collections.Generic.List`1[[PurrNet.Modules.DeltaAcknowledge, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;279
-PurrNet.Modules.HierarchyV2, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;280
-PurrNet.Modules.VisilityV2, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;281
-PurrNet.Modules.HierarchyPool, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;282
-System.Collections.Generic.Dictionary`2[[PurrNet.Modules.PrefabPieceID, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Collections.Generic.Queue`1[[UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;283
-PurrNet.Modules.PrefabPieceID, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;284
-System.Collections.Generic.Queue`1[[UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;285
-System.Collections.Generic.Dictionary`2[[UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[PurrNet.Modules.GameObjectPrototype, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;286
-PurrNet.Modules.GameObjectPrototype, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;287
-System.Nullable`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;288
-PurrNet.Pooling.DisposableList`1[[PurrNet.Modules.GameObjectFrameworkPiece, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;289
-PurrNet.Modules.GameObjectFrameworkPiece, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;290
-System.Collections.Generic.List`1[[PurrNet.Modules.GameObjectFrameworkPiece, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;291
-System.Collections.Generic.HashSet`1[[UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;292
-System.Collections.Generic.Dictionary`2[[PurrNet.NetworkID, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[PurrNet.NetworkIdentity, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;293
-System.Collections.Generic.Dictionary`2[[System.Type, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.Collections.Generic.List`1[[System.Reflection.MethodInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;294
-System.Collections.Generic.List`1[[System.Reflection.MethodInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;295
-System.Collections.Generic.List`1[[PurrNet.NetworkModule, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;296
-System.Collections.Generic.List`1[[PurrNet.Modules.GameObjectPrototype, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;297
-System.Collections.Generic.Dictionary`2[[PurrNet.Modules.SpawnID, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[PurrNet.Pooling.DisposableList`1[[PurrNet.NetworkIdentity, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;298
-PurrNet.Modules.SpawnID, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;299
-PurrNet.Pooling.DisposableList`1[[PurrNet.NetworkIdentity, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;300
-System.Collections.Generic.List`1[[PurrNet.Modules.HierarchyV2+PlayerNid, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;301
-PurrNet.Modules.HierarchyV2+PlayerNid, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;302
-System.Collections.Generic.Dictionary`2[[PurrNet.PlayerID, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[PurrNet.Modules.SpawnPacketBatch, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;303
-System.Collections.Generic.List`1[[PurrNet.Modules.SpawnPacket, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;304
-System.Collections.Generic.List`1[[PurrNet.Modules.DespawnPacket, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;305
-System.Collections.Generic.HashSet`1[[PurrNet.NetworkIdentity, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;306
-System.Collections.Generic.List`1[[PurrNet.Modules.SpawnID, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;307
-PurrNet.SyncArrayOperation, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;308
-PurrNet.SyncDictionaryOperation, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;309
-PurrNet.SyncListOperation, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;310
-PurrNet.OwnershipComponentToggle[], PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;311
-PurrNet.OwnershipGameObjectToggle[], PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;312
-System.Collections.Generic.List`1[[PurrNet.ReflectionData, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;313
-PurrNet.ReflectionData, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;314
-PurrNet.ReflectionType, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;315
-PurrNet.ReflectedValue[], PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;316
-System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;317
-System.Collections.Generic.List`1[[PurrNet.StateMachine.StateNode, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;318
-System.Collections.Generic.List`1[[PurrNet.SyncListChange`1[[PurrNet.StateMachine.StateNode, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;319
-PurrNet.SyncListChange`1[[PurrNet.StateMachine.StateNode, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;320
-PurrNet.Modules.HierarchyActionType, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;321
-PurrNet.Modules.DespawnType, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;322
-System.Collections.Generic.List`1[[PurrNet.Modules.HierarchyAction, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;323
-System.Collections.Generic.List`1[[PurrNet.NetworkID, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;324
-PurrNet.RPCSignature, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;325
-PurrNet.RPCType, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;326
-PurrNet.Transports.Channel, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;327
-PurrNet.CompressionLevel, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;328
-PurrNet.StripCodeModeOverride, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;329
-System.Collections.Generic.List`1[[PurrNet.Modules.OwnershipInfo, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;330
-PurrNet.Modules.OwnershipInfo, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;331
-PurrNet.Modules.TickManager+RPCClass, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;332
+PlayerHealth, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;7
+PlayerInventory, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;8
+Food, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;9
+WorldResources, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;10
+System.Collections.Generic.List`1[[UnityEngine.Vector3, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;11
+System.Collections.Generic.List`1[[UnityEngine.MonoBehaviour, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;12
+Fossil.DeltaOp, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;13
+PurrNet.NetworkIdentity, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;14
+UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;15
+UnityEngine.Transform, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;16
+PurrNet.NetworkManager, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;17
+PurrNet.NetworkModule, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;18
+PurrNet.StringUTF8, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;19
+System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;20
+PurrNet.Packing.Half, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;21
+PurrNet.Packing.CompressedFloat, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;22
+PurrNet.HalfQuaternion, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;23
+System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;24
+PurrNet.Packing.NormalizedFloat, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;25
+PurrNet.Packing.PackedUInt, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;26
+PurrNet.Packing.PackedInt, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;27
+PurrNet.Packing.PackedUShort, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;28
+PurrNet.Packing.PackedShort, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;29
+PurrNet.Packing.PackedULong, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;30
+PurrNet.Packing.PackedLong, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;31
+PurrNet.Packing.PackedByte, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;32
+PurrNet.Packing.PackedSByte, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;33
+System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;34
+PurrNet.Transports.ByteData, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;35
+PurrNet.Packing.BitPacker, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;36
+PurrNet.Packing.BitPackerWithLength, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;37
+PurrNet.Packing.IPacked, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;38
+PurrNet.Packing.IPackedSimple, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;39
+System.Int64, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;40
+System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;41
+System.Int16, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;42
+System.SByte, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;43
+System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;44
+System.TimeSpan, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;45
+System.DateTime, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;46
+System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;47
+System.Char, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;48
+System.UInt64, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;49
+System.UInt32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;50
+System.UInt16, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;51
+System.Byte, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;52
+UnityEngine.AvatarIKHint, UnityEngine.AnimationModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;53
+UnityEngine.AvatarIKGoal, UnityEngine.AnimationModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;54
+UnityEngine.HumanBodyBones, UnityEngine.AnimationModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;55
+UnityEngine.AnimatorCullingMode, UnityEngine.AnimationModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;56
+UnityEngine.AnimatorUpdateMode, UnityEngine.AnimationModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;57
+UnityEngine.AvatarTarget, UnityEngine.AnimationModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;58
+UnityEngine.MatchTargetWeightMask, UnityEngine.AnimationModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;59
+UnityEngine.Vector2, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;60
+UnityEngine.Ray, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;61
+UnityEngine.Ray2D, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;62
+UnityEngine.Vector3, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;63
+UnityEngine.Vector4, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;64
+UnityEngine.Vector2Int, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;65
+UnityEngine.Vector3Int, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;66
+UnityEngine.Quaternion, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;67
+UnityEngine.Color32, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;68
+UnityEngine.Color, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;69
+UnityEngine.Rect, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;70
+UnityEngine.Bounds, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;71
+UnityEngine.BoundsInt, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;72
+UnityEngine.SceneManagement.UnloadSceneOptions, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;73
+UnityEngine.SceneManagement.LoadSceneMode, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;74
+UnityEngine.SceneManagement.LocalPhysicsMode, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;75
+UnityEngine.SceneManagement.LoadSceneParameters, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;76
+PurrNet.Pooling.DisposableList`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;77
+PurrNet.SetIKHintPosition, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;78
+PurrNet.SetIKPositionWeight, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;79
+PurrNet.SetIKRotationWeight, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;80
+PurrNet.SetIKHintPositionWeight, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;81
+PurrNet.CrossFadeInFixedTime, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;82
+PurrNet.SetLookAtPosition, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;83
+PurrNet.SetLookAtWeight, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;84
+PurrNet.SetIKPosition, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;85
+PurrNet.SetIKRotation, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;86
+PurrNet.SetBoneLocalRotation, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;87
+PurrNet.SetBool, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;88
+PurrNet.SetFloat, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;89
+PurrNet.SetInt, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;90
+PurrNet.SetTrigger, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;91
+PurrNet.ResetTrigger, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;92
+PurrNet.SetSpeed, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;93
+PurrNet.SetBodyPosition, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;94
+PurrNet.SetBodyRotation, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;95
+PurrNet.SetCullingMode, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;96
+PurrNet.SetFireEvents, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;97
+PurrNet.SetPlaybackTime, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;98
+PurrNet.SetRootPosition, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;99
+PurrNet.SetRootRotation, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;100
+PurrNet.SetStabilizeFeet, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;101
+PurrNet.SetUpdateMode, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;102
+PurrNet.SetApplyRootMotion, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;103
+PurrNet.SetFeetPivotActive, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;104
+PurrNet.SetKeepAnimatorStateOnDisable, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;105
+PurrNet.SetWriteDefaultValuesOnDisable, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;106
+PurrNet.SetLogWarnings, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;107
+PurrNet.SetLayersAffectMassCenter, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;108
+PurrNet.Play_STATEHASH_LAYER_NORMALIZEDTIME, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;109
+PurrNet.Play_STATEHASH_LAYER, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;110
+PurrNet.PLAY_STATEHASH, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;111
+PurrNet.Rebind, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;112
+PurrNet.UpdateWithDelta, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;113
+PurrNet.CrossFade_5, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;114
+PurrNet.CrossFade_4, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;115
+PurrNet.CrossFade_3, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;116
+PurrNet.CrossFade_2, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;117
+PurrNet.MatchTarget, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;118
+PurrNet.InterruptMatchTarget, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;119
+PurrNet.SetLayerWeight, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;120
+PurrNet.WriteDefaultValues, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;121
+PurrNet.ApplyBuiltinRootMotion, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;122
+PurrNet.PlayInFixedTime, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;123
+PurrNet.NetAnimatorRPC, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;124
+PurrNet.NetAnimatorActionBatch, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;125
+PurrNet.NetworkAnimator, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;126
+PurrNet.NetworkBehaviour, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;127
+PurrNet.NetworkTransform, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;128
+PurrNet.PrefabLink, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;129
+PurrNet.SyncEventBase, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;130
+PurrNet.SyncEvent, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;131
+PurrNet.SyncTimer, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;132
+PurrNet.NetworkOwnershipDebug, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;133
+PurrNet.NetworkOwnershipToggle, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;134
+PurrNet.NetworkReflection, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;135
+PurrNet.NetworkServerToggle, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;136
+PurrNet.PlayerID, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;137
+PurrNet.SceneID, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;138
+PurrNet.RPCPacket, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;139
+PurrNet.ChildRPCPacket, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;140
+PurrNet.StaticRPCPacket, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;141
+PurrNet.StateMachine.StateMachine, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;142
+PurrNet.StateMachine.StateMachineState, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;143
+PurrNet.StateMachine.StateNode, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;144
+PurrNet.Modules.DeltaAcknowledgeBatch, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;145
+PurrNet.Modules.DeltaBatch, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;146
+PurrNet.Modules.DeltaAcknowledge, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;147
+PurrNet.Modules.DeltaCleanup, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;148
+PurrNet.Modules.HierarchyAction, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;149
+PurrNet.Modules.HierarchyActionBatch, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;150
+PurrNet.Modules.DespawnAction, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;151
+PurrNet.Modules.SetActiveAction, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;152
+PurrNet.Modules.SetEnabledAction, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;153
+PurrNet.Modules.SpawnAction, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;154
+PurrNet.Modules.ChangeParentAction, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;155
+PurrNet.Modules.TransformInfo, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;156
+PurrNet.Modules.ChangeParentPacket, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;157
+PurrNet.Modules.DespawnPacket, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;158
+PurrNet.Modules.FinishSpawnPacket, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;159
+PurrNet.Modules.SpawnPacketBatch, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;160
+PurrNet.Modules.SpawnPacket, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;161
+PurrNet.Modules.NetworkTransformDelta, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;162
+PurrNet.Modules.OwnershipChange, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;163
+PurrNet.Modules.ServerLoginResponse, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;164
+PurrNet.Modules.PlayerJoinedEvent, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;165
+PurrNet.Modules.PlayerLeftEvent, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;166
+PurrNet.Modules.PlayerSnapshotEvent, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;167
+PurrNet.Modules.SceneAction, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;168
+PurrNet.Packing.HalfVector2, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;169
+PurrNet.Packing.HalfVector3, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;170
+PurrNet.Packing.HalfVector4, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;171
+PurrNet.Authentication.AuthenticationRequest, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;172
+PurrNet.Authentication.AuthenticationRequestData, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;173
+PurrNet.Authentication.AuthenticationResponse, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;174
+PurrNet.StatisticsManager+PingMessage, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;175
+PurrNet.StatisticsManager+PacketMessage, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;176
+PurrNet.NetworkTransformData, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;177
+PurrNet.RPCInfo, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;178
+PurrNet.TimerState, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;179
+PurrNet.TimerEvent, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;180
+System.Nullable`1[[PurrNet.PlayerID, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;181
+PurrNet.StatisticsManager+ServerStatsPacket, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;182
+PurrNet.SyncList`1[[PurrNet.StateMachine.StateNode, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;183
+PurrNet.Modules.OwnershipChangeBatch, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;184
+PurrNet.Modules.RpcResponse, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;185
+PurrNet.Modules.ClientFinishedLoadingScene, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;186
+PurrNet.Modules.SceneActionsBatch, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;187
+System.Collections.Generic.List`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;188
+PurrNet.NetAnimatorAction, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;189
+PurrNet.SetAnimatePhysics, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;190
+System.Collections.Generic.List`1[[PurrNet.NetAnimatorRPC, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;191
+System.Collections.Generic.List`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;192
+System.Collections.Generic.HashSet`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;193
+System.Collections.Generic.List`1[[PurrNet.PlayerID, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;194
+System.Collections.Generic.Dictionary`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;195
+System.Collections.Generic.Dictionary`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;196
+System.Collections.Generic.Dictionary`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;197
+PurrNet.SyncMode, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;198
+PurrNet.TransformSyncMode, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;199
+PurrNet.InterpolationTiming, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;200
+PurrNet.Interpolated`1[[PurrNet.Vector3WithParent, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;201
+PurrNet.Vector3WithParent, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;202
+System.Collections.Generic.List`1[[PurrNet.Vector3WithParent, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;203
+PurrNet.Interpolated`1[[PurrNet.QuaternionWithParent, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;204
+PurrNet.QuaternionWithParent, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;205
+System.Collections.Generic.List`1[[PurrNet.QuaternionWithParent, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;206
+PurrNet.Interpolated`1[[PurrNet.ScaleWithParent, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;207
+PurrNet.ScaleWithParent, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;208
+System.Collections.Generic.List`1[[PurrNet.ScaleWithParent, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;209
+PurrNet.Packing.CompressedVector3, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;210
+PurrNet.Packing.PackedQuaternion, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;211
+System.Collections.Generic.Dictionary`2[[PurrNet.NetworkIdentity+InstanceGenericKey, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Reflection.MethodInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;212
+PurrNet.NetworkIdentity+InstanceGenericKey, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;213
+System.Int32[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;214
+System.Collections.Generic.List`1[[PurrNet.NetworkIdentity, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;215
+System.Collections.Generic.Dictionary`2[[System.Type, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.Collections.Generic.List`1[[System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;216
+System.Type[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;217
+System.Collections.Generic.List`1[[System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;218
+PurrNet.StartFlags, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;219
+PurrNet.Modules.CookieScope, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;220
+System.Collections.Generic.List`1[[PurrNet.NetworkPrefabs+UserPrefabData, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;221
+PurrNet.NetworkPrefabs+UserPrefabData, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;222
+System.Collections.Generic.Dictionary`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[PurrNet.PrefabData, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;223
+PurrNet.PrefabData, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;224
+System.Collections.Generic.HashSet`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;225
+System.Collections.Generic.List`1[[UnityEngine.Object, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;226
+System.Collections.Generic.Dictionary`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[UnityEngine.Object, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;227
+System.Collections.Generic.Dictionary`2[[UnityEngine.Object, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;228
+PurrNet.SpawnRules, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;229
+PurrNet.ConnectionAuth, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;230
+PurrNet.ActionAuth, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;231
+PurrNet.DefaultOwner, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;232
+PurrNet.RpcRules, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;233
+PurrNet.VisibilityRules, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;234
+PurrNet.VisibilityMode, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;235
+PurrNet.OwnershipRules, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;236
+PurrNet.NetworkSceneRules, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;237
+PurrNet.NetworkIdentityRules, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;238
+PurrNet.NetworkTransformRules, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;239
+PurrNet.MiscRules, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;240
+PurrNet.Transports.Connection, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;241
+System.Nullable`1[[PurrNet.Transports.Connection, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;242
+PurrNet.Transports.ConnectionState, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;243
+PurrNet.ModulesCollection, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;244
+System.Collections.Generic.List`1[[PurrNet.Modules.CookiePair, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;245
+PurrNet.Modules.CookiePair, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;246
+System.Collections.Generic.List`1[[PurrNet.Modules.WaitingConnectionAuth, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;247
+PurrNet.Modules.WaitingConnectionAuth, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;248
+System.Collections.Generic.Dictionary`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[PurrNet.PlayerID, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;249
+System.Collections.Generic.Dictionary`2[[PurrNet.PlayerID, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;250
+System.Collections.Generic.Dictionary`2[[PurrNet.Transports.Connection, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[PurrNet.PlayerID, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;251
+System.Collections.Generic.Dictionary`2[[PurrNet.PlayerID, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[PurrNet.Transports.Connection, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;252
+System.Collections.Generic.HashSet`1[[PurrNet.PlayerID, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;253
+System.Nullable`1[[PurrNet.NetworkID, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;254
+PurrNet.NetworkID, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;255
+System.Collections.Generic.List`1[[PurrNet.Transports.Connection, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;256
+System.Collections.Generic.Dictionary`2[[PurrNet.PlayerID, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[PurrNet.NetworkID, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;257
+PurrNet.Modules.SceneHistory, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;258
+System.Collections.Generic.List`1[[PurrNet.Modules.SceneAction, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;259
+PurrNet.Modules.SceneActionType, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;260
+PurrNet.Modules.LoadSceneAction, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;261
+PurrNet.Modules.PurrSceneSettings, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;262
+PurrNet.Modules.UnloadSceneAction, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;263
+PurrNet.Modules.SetActiveSceneAction, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;264
+System.Collections.Generic.List`1[[PurrNet.SceneID, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;265
+System.Collections.Generic.List`1[[PurrNet.Modules.PendingSceneOperation, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;266
+PurrNet.Modules.PendingSceneOperation, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;267
+System.Collections.Generic.Queue`1[[PurrNet.Modules.SceneAction, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;268
+System.Collections.Generic.Dictionary`2[[PurrNet.SceneID, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[PurrNet.Modules.SceneState, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;269
+PurrNet.Modules.SceneState, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;270
+System.Collections.Generic.Dictionary`2[[UnityEngine.SceneManagement.Scene, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[PurrNet.SceneID, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;271
+System.Collections.Generic.Dictionary`2[[PurrNet.SceneID, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[PurrNet.Collections.PurrHashSet`1[[PurrNet.PlayerID, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;272
+PurrNet.Collections.PurrHashSet`1[[PurrNet.PlayerID, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;273
+System.Collections.Generic.List`1[[UnityEngine.AsyncOperation, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;274
+PurrNet.Modules.ScenesModule+CleanupStage, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;275
+System.Nullable`1[[UnityEngine.SceneManagement.Scene, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;276
+System.Collections.Generic.Dictionary`2[[PurrNet.PlayerID, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Collections.Generic.Dictionary`2[[System.UInt32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[PurrNet.Modules.ClientDeltaTracker, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;277
+System.Collections.Generic.Dictionary`2[[System.UInt32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[PurrNet.Modules.ClientDeltaTracker, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;278
+System.Collections.Generic.List`1[[PurrNet.Modules.DeltaAcknowledgeBatch, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;279
+PurrNet.Pooling.DisposableList`1[[PurrNet.Modules.DeltaAcknowledge, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;280
+System.Collections.Generic.List`1[[PurrNet.Modules.DeltaAcknowledge, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;281
+PurrNet.Modules.HierarchyV2, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;282
+PurrNet.Modules.VisilityV2, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;283
+PurrNet.Modules.HierarchyPool, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;284
+System.Collections.Generic.Dictionary`2[[PurrNet.Modules.PrefabPieceID, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Collections.Generic.Queue`1[[UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;285
+PurrNet.Modules.PrefabPieceID, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;286
+System.Collections.Generic.Queue`1[[UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;287
+System.Collections.Generic.Dictionary`2[[UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[PurrNet.Modules.GameObjectPrototype, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;288
+PurrNet.Modules.GameObjectPrototype, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;289
+System.Nullable`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;290
+PurrNet.Pooling.DisposableList`1[[PurrNet.Modules.GameObjectFrameworkPiece, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;291
+PurrNet.Modules.GameObjectFrameworkPiece, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;292
+System.Collections.Generic.List`1[[PurrNet.Modules.GameObjectFrameworkPiece, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;293
+System.Collections.Generic.HashSet`1[[UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;294
+System.Collections.Generic.Dictionary`2[[PurrNet.NetworkID, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[PurrNet.NetworkIdentity, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;295
+System.Collections.Generic.Dictionary`2[[System.Type, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.Collections.Generic.List`1[[System.Reflection.MethodInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;296
+System.Collections.Generic.List`1[[System.Reflection.MethodInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;297
+System.Collections.Generic.List`1[[PurrNet.NetworkModule, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;298
+System.Collections.Generic.List`1[[PurrNet.Modules.GameObjectPrototype, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;299
+System.Collections.Generic.Dictionary`2[[PurrNet.Modules.SpawnID, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[PurrNet.Pooling.DisposableList`1[[PurrNet.NetworkIdentity, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;300
+PurrNet.Modules.SpawnID, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;301
+PurrNet.Pooling.DisposableList`1[[PurrNet.NetworkIdentity, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;302
+System.Collections.Generic.List`1[[PurrNet.Modules.HierarchyV2+PlayerNid, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;303
+PurrNet.Modules.HierarchyV2+PlayerNid, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;304
+System.Collections.Generic.Dictionary`2[[PurrNet.PlayerID, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[PurrNet.Modules.SpawnPacketBatch, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;305
+System.Collections.Generic.List`1[[PurrNet.Modules.SpawnPacket, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;306
+System.Collections.Generic.List`1[[PurrNet.Modules.DespawnPacket, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;307
+System.Collections.Generic.HashSet`1[[PurrNet.NetworkIdentity, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;308
+System.Collections.Generic.List`1[[PurrNet.Modules.SpawnID, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;309
+PurrNet.SyncArrayOperation, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;310
+PurrNet.SyncDictionaryOperation, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;311
+PurrNet.SyncListOperation, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;312
+PurrNet.OwnershipComponentToggle[], PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;313
+PurrNet.OwnershipGameObjectToggle[], PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;314
+System.Collections.Generic.List`1[[PurrNet.ReflectionData, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;315
+PurrNet.ReflectionData, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;316
+PurrNet.ReflectionType, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;317
+PurrNet.ReflectedValue[], PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;318
+System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;319
+System.Collections.Generic.List`1[[PurrNet.StateMachine.StateNode, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;320
+System.Collections.Generic.List`1[[PurrNet.SyncListChange`1[[PurrNet.StateMachine.StateNode, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;321
+PurrNet.SyncListChange`1[[PurrNet.StateMachine.StateNode, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;322
+PurrNet.Modules.HierarchyActionType, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;323
+PurrNet.Modules.DespawnType, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;324
+System.Collections.Generic.List`1[[PurrNet.Modules.HierarchyAction, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;325
+System.Collections.Generic.List`1[[PurrNet.NetworkID, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;326
+PurrNet.RPCSignature, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;327
+PurrNet.RPCType, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;328
+PurrNet.Transports.Channel, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;329
+PurrNet.CompressionLevel, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;330
+PurrNet.StripCodeModeOverride, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;331
+System.Collections.Generic.List`1[[PurrNet.Modules.OwnershipInfo, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;332
+PurrNet.Modules.OwnershipInfo, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;333
+PurrNet.Modules.TickManager+RPCClass, PurrNet.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;334
