@@ -210,14 +210,14 @@ namespace StarterAssets
                     }
                 }
 
-                if (_input.attack)
-                {
-                    if (_hasAnimator)
-                    {
-                        _animator.SetTrigger(_animIDAttack);
-                        _input.attack = false;
-                    }
-                }
+                // if (_input.attack)
+                // {
+                //     if (_hasAnimator)
+                //     {
+                //         _animator.SetTrigger(_animIDAttack);
+                //         _input.attack = false;
+                //     }
+                // }
             }
 
         }
