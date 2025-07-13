@@ -6,6 +6,7 @@ public class MainMenuUI : MonoBehaviour
     [SerializeField] private Button optionsButton;
     [SerializeField] private Button startButton;
     [SerializeField] private Button exitButton;
+    [SerializeField] private Button creditsButton;
 
     private void Awake()
     {
@@ -20,6 +21,10 @@ public class MainMenuUI : MonoBehaviour
         exitButton.onClick.AddListener(() =>
         {
             Application.Quit();
+        });
+        creditsButton.onClick.AddListener(() =>
+        {
+            CreditsUI.Instance.Show();
         });
     }
 }
