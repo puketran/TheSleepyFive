@@ -6,34 +6,34 @@ EditorUserSettings:
   serializedVersion: 4
   m_ConfigSettings:
     RecentlyUsedSceneGuid-0:
-      value: 51010356560c0b0c0b57557244765a4442154f792d717336297f4536e1e6353e
-      flags: 0
-    RecentlyUsedSceneGuid-1:
-      value: 5b0200020604590b0b57542649750e44414f1c79757e7332747a4b30b7e1363e
-      flags: 0
-    RecentlyUsedSceneGuid-2:
       value: 5601030401050a09595a0f7143715b44444f41732f797f657b281c65b4b56669
       flags: 0
-    RecentlyUsedSceneGuid-3:
-      value: 5704520355530d585c5b5c2141265d44134e4a2b7d7c2467742d1960e4b1666e
-      flags: 0
-    RecentlyUsedSceneGuid-4:
+    RecentlyUsedSceneGuid-1:
       value: 57040c5600565f085f570d7149725c44474e1a2e7c7f27352f2c4565b1e2316f
       flags: 0
-    RecentlyUsedSceneGuid-5:
+    RecentlyUsedSceneGuid-2:
       value: 5a57025456050b02090c0e2111270e44124f4f782a2e73677d2c4436e1e3366f
+      flags: 0
+    RecentlyUsedSceneGuid-3:
+      value: 020150005c53080b0b08587244250c44404f1a792e297f677c7c1935b1b13661
+      flags: 0
+    RecentlyUsedSceneGuid-4:
+      value: 5a08575f5207595a0f5d59741173094444164f7d7d2a23317c7a4465bbe1646d
+      flags: 0
+    RecentlyUsedSceneGuid-5:
+      value: 5704520355530d585c5b5c2141265d44134e4a2b7d7c2467742d1960e4b1666e
       flags: 0
     RecentlyUsedSceneGuid-6:
       value: 0655565653070d0c585e5f7a167b0844404e1e28282a77317b2d4f62e0b7366e
       flags: 0
     RecentlyUsedSceneGuid-7:
-      value: 020150005c53080b0b08587244250c44404f1a792e297f677c7c1935b1b13661
+      value: 5a575756540508085f085e7315210a44104f4a2f287c2061787f1937e0b63039
       flags: 0
     RecentlyUsedSceneGuid-8:
-      value: 5506010450535f595c08597348735a44454e197b297b71647b281f61bab8356b
+      value: 510201520301080f0f5d587313215c44414f497f2f7174607c2c4862b2e6676d
       flags: 0
     RecentlyUsedSceneGuid-9:
-      value: 510201520301080f0f5d587313215c44414f497f2f7174607c2c4862b2e6676d
+      value: 5506010450535f595c08597348735a44454e197b297b71647b281f61bab8356b
       flags: 0
     lightmappingBakingProfile:
       value: 51

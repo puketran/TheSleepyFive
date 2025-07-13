@@ -145,6 +145,49 @@ public class InventoryManager : MonoBehaviour
         }
     }
 
+    public void ConsumeItem(Item item)
+    {
+        var itemData = Array.Find(_inventoryData, data => data.itemName == item.ItemName);
+        if (itemData.inventoryItem == null)
+        {
+            Debug.LogWarning("Item not found in inventory data.");
+            return;
+        }
+        // var item = Instantiate(itemToSpawn, posToSpawn, Quaternion.identity);
+        if (DeductItem(itemData) <= 0)
+        {
+            PlayerInventory.localInventory.UnequipItem(item);
+        }
+    }
+
+    private int DeductItem(InventoryItemData inventoryItemData)
+    {
+        for (int i = 0; i < _inventoryData.Length; i++)
+        {
+            var data = _inventoryData[i];
+            if (data.inventoryItem != inventoryItemData.inventoryItem)
+                continue;
+
+            data.amount--;
+            if (data.amount <= 0)
+            {
+                // Remove item from inventory
+                _inventoryData[i] = default;
+                slots[i].SetItem(null);
+                Destroy(data.inventoryItem.gameObject);
+                return 0;
+            }
+            else
+            {
+                // Update item amount
+                data.inventoryItem.Init(data.itemName, data.itemPicture, data.amount);
+                _inventoryData[i] = data;
+                return data.amount;
+            }
+        }
+        return 0;
+    }
+
     private int DeductItem(InventoryItem inventoryItem)
     {
         for (int i = 0; i < _inventoryData.Length; i++)

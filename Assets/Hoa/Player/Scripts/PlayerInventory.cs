@@ -9,6 +9,8 @@ public class PlayerInventory : NetworkBehaviour
     [SerializeField] private KeyCode useItemKey, consumeItemKey;
     private Item _itemInHand;
 
+    private const int ignoreRayCastLayer = 2;
+
     protected override void OnSpawned()
     {
         base.OnSpawned();
@@ -39,7 +41,7 @@ public class PlayerInventory : NetworkBehaviour
         Debug.Log($"Equipping item: {item.ItemName}");
         _itemInHand = Instantiate(item, _itemPoint.position, _itemPoint.rotation, _itemPoint);
         _itemInHand.SetKinematic(true);
-        // Debug.Log($"Equipped item: {newItem.ItemName} at position: {_itemPoint.position}");
+        _itemInHand.QueueOnSpawned(() => _itemInHand.SetLayer(ignoreRayCastLayer));
     }
 
     public void UnequipItem(Item item)
@@ -107,13 +109,16 @@ public class PlayerInventory : NetworkBehaviour
             Debug.LogWarning("No item in hand to consume.");
             return;
         }
-        if (_itemInHand is Consumable consumable)
+
+        if (!_itemInHand.CanConsumeItem())
+            return;
+
+        _itemInHand.ConsumeItem();
+
+        if (InstanceHandler.TryGetInstance(out InventoryManager inventoryManager))
         {
-            consumable.ConsumeItem();
+            inventoryManager.ConsumeItem(_itemInHand);
         }
-        else
-        {
-            Debug.LogWarning($"Cannot consume item: {_itemInHand.ItemName}. Only consumables can be consumed.");
-        }
+        // UnequipItem(_itemInHand);
     }
 }

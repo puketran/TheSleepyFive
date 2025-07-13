@@ -1,3 +1,4 @@
+using System;
 using PurrNet;
 using UnityEngine;
 
@@ -73,5 +74,25 @@ public abstract class Item : AInteractable
     public virtual void ConsumeItem()
     {
 
+    }
+
+    public virtual bool CanConsumeItem()
+    {
+        return false;
+    }
+
+    [ObserversRpc(bufferLast: true)]
+    public void SetLayer(int ignoreRayCastLayer)
+    {
+        SetLayerRecursive(gameObject, ignoreRayCastLayer);
+    }
+
+    private void SetLayerRecursive(GameObject obj, int layer)
+    {
+        obj.layer = layer;
+        foreach (Transform child in obj.transform)
+        {
+            SetLayerRecursive(child.gameObject, layer);
+        }
     }
 }

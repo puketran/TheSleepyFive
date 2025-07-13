@@ -33,6 +33,8 @@ public class LightManager : MonoBehaviour
         }
 
         RenderSettings.ambientIntensity = startIntensity;
+        // adjust environment reflection intensity
+        RenderSettings.reflectionIntensity = startIntensity;
 
         Debug.Log(startIntensity);
     }
