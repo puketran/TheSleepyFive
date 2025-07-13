@@ -68,6 +68,7 @@ GameObject:
   - component: {fileID: 5422535946327873335}
   - component: {fileID: 7632884256961830221}
   - component: {fileID: 3878277129915007074}
+  - component: {fileID: 481999774006543753}
   m_Layer: 7
   m_Name: Tool_Axe
   m_TagString: Untagged
@@ -202,6 +203,32 @@ MonoBehaviour:
   waitBeforeFirstHit: 0.25
   waitBetweenHits: 0.5
   damage: 5
+  _useCooldown: 1
+--- !u!114 &481999774006543753
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8797874744979784363}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7b598b9d8509d64abb9fdaf07fa3f6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _isSetup: 0
+  _prefabId: -2147483648
+  _componentIndex: -2147483648
+  _shouldBePooled: 0
+  _parent: {fileID: 0}
+  _invertedPathToNearestParent: 
+  _directChildren: []
+  _networkRules: {fileID: 0}
+  _visitiblityRules: {fileID: 0}
+  _animator: {fileID: 2324504108306230880}
+  _ownerAuth: 1
+  _autoSyncParameters: 1
+  _dontSyncParameters: []
 --- !u!1001 &7965934092659842071
 PrefabInstance:
   m_ObjectHideFlags: 0
